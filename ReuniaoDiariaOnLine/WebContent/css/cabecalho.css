@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin:0;
+}
+
+table#topo
+{
+	background-image:url(../imagens/fundoSuperior.jpg);
+	background-repeat:repeat-x;
+	font-size: 36px;
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;*/
+}
+
+.Cinza {color: #666666}
+.preto{color: #666}
+
+.efeitoShadow
+{
+	/*text-shadow:0 0 0.2em #333, 0 0 0.2em #333;*/
+}

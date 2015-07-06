@@ -1,0 +1,233 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font-size: 9px;
+	margin:0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	
+}
+
+.window{
+    display:none;
+    width:600px;
+    height:600px;
+    position:absolute;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+    position: fixed; 
+	bottom: 30px; 
+	left: 0px; 
+}
+
+
+* html .window  /* corrige no IE */ 
+{ 
+ POSITION: absolute; 
+ BOTTOM: expression(offsetParent.scrollTop +30); 
+ LEFT: expression(offsetParent.scrollLeft); 
+}
+ 
+ 
+.windowGrafico{
+    display:none;
+    width:750px;
+    height:420px;
+    position:absolute;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+    position: fixed; 
+	bottom: 30px; 
+	left: 0px; 
+}
+
+* html .windowGrafico  /* corrige no IE */ 
+{ 
+ POSITION: absolute; 
+ BOTTOM: expression(offsetParent.scrollTop +30); 
+ LEFT: expression(offsetParent.scrollLeft); 
+}
+
+
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+}
+ 
+.fechar{display:block; text-align:right;}
+
+.requisitomodal {
+	align: left;
+	size: 20px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.textomodal {
+	align: left;
+	size: 16px;
+	font-size: 12px;
+}
+
+.tabela
+{
+	border: 1px solid black; 
+	margin: 0 auto; 
+	border-collapse: collapse;
+	clear: both;
+}
+
+.centro{text-align: center;}
+.esquerda{text-align: left;}
+
+.tituloTabela
+{
+	
+	border: 1px solid #aaaaaa; 
+	background: #cccccc url(base/images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; 
+	color: #222222; 
+	font-weight: bold; 
+}
+
+.subtituloTabela
+{
+ 		border: 1px solid #d3d3d3; 
+ 		background: #e6e6e6 url(base/images/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x; 
+ 		font-weight: bold; 
+ 		color: #555555;
+}
+
+.rodapeTabela
+{
+	border: 1px solid #aaaaaa; 
+	background: #cccccc url(base/images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x; 
+	color: #222222; 
+	font-weight: bold; 
+}
+
+.mousehover:hover
+{
+	background-color: #cfc;
+}
+
+.TabControl {
+	width: 100%;
+	overflow: hidden;
+	height: 100%;
+}
+
+.TabControl #header {
+	width: 100%;
+	border: overflow:hidden;
+	cursor: hand;
+	font-family:Calibri, Tahoma, Arial;
+}
+
+.TabControl #contentAba {
+	width: 100%;
+	border: solid 1px;
+	overflow: hidden;
+	height: 100%;
+}
+
+.TabControl .abas {
+	display: inline;
+}
+
+.TabControl .abas li {
+	float: left;
+}
+
+.aba {
+	width: 100px;
+	height: 30px;
+	font-size: 9pt;
+	border: solid 1px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	padding-top: 5px;
+	background-color: #F5F5F5;
+}
+
+/*Aba clicada*/
+.ativa {
+	width: 100px;
+	height: 30px;
+	border: solid 1 px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	padding-top: 5px;
+	background: gray;
+}
+/*Cor do texto na aba clicado*/
+.ativa span,.selected span {
+	color: #fff
+}
+
+.TabControl #contentAba {
+	background: #F5F5F5;
+}
+
+.TabControl .conteudo {
+	width: 100%;
+	background: #F5F5F5;
+	display: none;
+	height: 100%;
+	/*color: #fff*/
+}
+
+.selected {
+	width: 100px;
+	height: 30px;
+	border: solid 1 px;
+	border-radius: 5px 5px 0 0;
+	text-align: center;
+	padding-top: 5px;
+	background: gray
+}
+
+
+.texto {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#fff;
+	font-weight:normal;
+}
+
+
+
+.validador
+{
+    color:#ff0000;
+    visibility: hidden;
+}
+
+.tituloTabela
+{
+	text-align:center;
+	font-weight:bold;
+}
+
+div.figura 
+{
+  width: 50%;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+div.figura p 
+{
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}

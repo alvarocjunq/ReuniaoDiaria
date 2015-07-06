@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/log4j-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-aop-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-aspects-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-beans-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-context-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-core-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-expression-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-jdbc-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-web-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/spring-webmvc-3.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jstl-api-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jstl-impl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/displaytag-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/ojdbc14.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/batik-awt-util-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/batik-dom-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/batik-svggen-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/batik-util-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/batik-xml-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/cewolf-1.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jcommon-1.0.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebContent/WEB-INF/lib/jfreechart-1.0.14.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
